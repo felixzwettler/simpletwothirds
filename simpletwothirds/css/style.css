@@ -171,7 +171,7 @@ img { max-width: 100%; }
     line-height: 1.2em;
     margin: 0em 0em 0em 0em;
     padding: 0.15em 0.2em 0.3em 15vw;
-    font-size: 3.6em;
+    font-size: 2.6em;
     text-decoration: none;
     color: var(--color-greylight);
 }
@@ -209,6 +209,7 @@ img { max-width: 100%; }
 }
 .navbar a:hover { color: var(--color-greymid) }
 .navbar a.inactive { font-weight: normal; }
+.navbar a.inactive::before { content: "\00a0\00a0"; }
 .navbar a.active { font-weight: bold; }
 .navbar a.active::before { color: var(--color-greymid); content: "\00BB"; }
 

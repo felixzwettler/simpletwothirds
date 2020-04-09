@@ -7,19 +7,12 @@ I am not a web developer. At best this is ugly code, at worst it might be unsafe
 
 ### Preview Desktop:
 
----
-
 <img src="https://raw.githubusercontent.com/fpunktz/simpletwothirds/master/preview_desktop.png" alt="preview_desktop" width="95%"/>
-
----
 
 ### Preview Mobile:
 
----
-
 <img src="https://raw.githubusercontent.com/fpunktz/simpletwothirds/master/preview_mobile.png" alt="preview_mobile" width="60%"/>
 
----
 
 ## Installation
 takes only Pico seconds. Just upload the theme into the themes folder and enable this theme in the `config.yml`.
