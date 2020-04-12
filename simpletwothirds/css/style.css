@@ -41,27 +41,27 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "OpenSans-Light";
-    font-weight: bold;
+    font-family: "OpenSans-Regular";
     line-height: 1.5em;
-    margin: 0.4em 0em 0.2em 0em;
+    margin: 0.3em 0em 0.2em 0em;
 }
 
-h1 { font-size: 2.4em; }
+h1 { font-size: 2.3em; }
 h1::before { color: var(--color-greymid); content: "#: "; }
 
-h2 { font-size: 2em; }
+h2 { font-size: 1.7em; }
 h2::before { color: var(--color-greymid); content: "#: "; }
 
-h3 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
 h3::before { color: var(--color-greymid); content: "#: ";  }
 
-h4 { font-size: 1.2em; }
+h4 { font-family: "OpenSans-Light"; font-size: 1.3em; }
 h4::before { color: var(--color-greymid); content: "#: ";  }
 
-h5 { font-size: 1.2em; }
+h5 { font-family: "OpenSans-Light"; font-size: 1.0em; }
+h5::before { color: var(--color-greymid); content: "#: ";  }
 
-h6 { font-size: 1.0em; }
+h6 { font-family: "OpenSans-Light"; font-size: 1.0em; }
 
 p {
     margin: 0em 0em 0.2em 0em;
@@ -167,10 +167,10 @@ img { max-width: 100%; }
     
 }
 .header a {
-    font-weight: bold;
+    font-family: "OpenSans-Regular";
     line-height: 1.2em;
     margin: 0em 0em 0em 0em;
-    padding: 0.15em 0.2em 0.3em 15vw;
+    padding: 0.15em 0.2em 0.25em 15vw;
     font-size: 2.6em;
     text-decoration: none;
     color: var(--color-greylight);
@@ -213,15 +213,6 @@ img { max-width: 100%; }
 .navbar a.active { font-weight: bold; }
 .navbar a.active::before { color: var(--color-greymid); content: "\00BB"; }
 
-.navbar a.title {
-    font-family: "OpenSans-Regular";
-    font-weight: bold;
-    line-height: 1.5em;
-    font-size: 1.5em;
-    /*text-decoration-line: none; */
-}
-.navbar a.title::before { text-decoration-line: none; color: var(--color-greymid); content: "#: "; }
-
 .content {
     display: grid;
     grid-column: col2 / col3;
@@ -238,26 +229,6 @@ img { max-width: 100%; }
         grid-column-gap: 10px;
         grid-row-gap: 10px;
     }
-
-    h1, h2, h3, h4, h5, h6 {
-        overflow: hidden;
-    }
-    
-    h1 { font-size: 1.6em; margin-top: 0.9em; }
-    h1::before { color: var(--color-greydark); content: "#: "; }
-    
-    h2 { font-size: 1.4em; margin-top: 1.1em; }
-    h2::before { color: var(--color-greydark); content: "#: "; }
-    
-    h3 { font-size: 1.2em; margin-top: 1.3em; }
-    h3::before { color: var(--color-greydark); content: "#: ";  }
-    
-    h4 { font-size: 1.0em; margin-top: 1.5em; }
-    h4::before { color: var(--color-greydark); content: "#: ";  }
-    
-    h5 { font-size: 1.0em; margin-top: 1.5em; }
-    
-    h6 { font-size: 1.0em; margin-top: 1.5em; }
 
     .image.xsmall { width: 50%; }
     .image.small { width: 70%; }
@@ -277,7 +248,7 @@ img { max-width: 100%; }
     .header a {
         margin: 0em 0.2em 0em 0.2em;
         padding: 0.1em 0.2em 0.2em 0.2em;
-        font-size: 2em;
+        font-size: 2.3em;
     }
 
     .navbar {
@@ -292,6 +263,6 @@ img { max-width: 100%; }
     .content {
         grid-column: col1 / col2;
         grid-row: row2 / row3;
-        margin: 1em 0.2em 0em 0.2em;
+        margin: 1em 0.3em 0em 0.3em;
     }
 }

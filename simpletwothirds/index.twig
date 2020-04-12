@@ -39,7 +39,9 @@
     <nav class="navbar">
         <ul>
             <li>
-                <a href="{{ base_url }}" class="title" >{{ site_title }}</a>
+                <h3>
+                    <a href="{{ base_url }}">{{ site_title }}</a>
+                </h3>
             </li>
             
             {% for child in pages(depth=null, depthOffset=-1) %}
