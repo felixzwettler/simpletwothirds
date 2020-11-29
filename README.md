@@ -2,7 +2,7 @@
 a simple Pico CMS theme with responsive web design. Used by me as a wiki and blog.
 
 ## Disclaimer:
-I am not a web developer. At best this is ugly code, at worst it might be unsafe. Use at your own risk.
+I am not a web developer. At best this is ugly code, at worst it might be unsafe so please use at your own risk
 ## Preview
 
 ### Preview Desktop:
@@ -15,9 +15,7 @@ I am not a web developer. At best this is ugly code, at worst it might be unsafe
 
 
 ## Installation
-takes only Pico seconds. Just upload the theme into the themes folder and enable this theme in the `config.yml`.
-It is still under heavy developement, so it may change drastically. Feel free to fork the code.
-
-Also: Please don't hesitate to submit an issue, I am always open for improvements / changes. I consider this theme as tipping my little toe into the water in regards to web developement.
+takes only Pico seconds (haha). Just upload the theme into the themes folder and enable this theme in the `config.yml`.
+It is still under heavy developement though
 
 inspired by [sonst-was/simpletwo](https://github.com/sonst-was/simpleTwo) .
